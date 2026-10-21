@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI-Memory-Sync: a personal Google Drive synchronization application for a private AI memory archive.">
+  <title>AI-Memory-Sync | Personal Memory Archive</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.65; }
+    body { max-width: 760px; margin: 0 auto; padding: 40px 22px; }
+    h1 { font-size: 2.1rem; line-height: 1.2; margin-bottom: 8px; }
+    h2 { margin-top: 34px; font-size: 1.15rem; }
+    .muted { color: #757575; }
+    a { color: #1684c7; }
+    header { padding-bottom: 16px; border-bottom: 1px solid #9995; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #9995; font-size: .94rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI-Memory-Sync</h1>
+    <p class="muted">Personal Google Drive synchronization for a private AI memory archive</p>
+  </header>
+  <main>
+    <h2>What this application does</h2>
+    <p>AI-Memory-Sync is a personal, self-hosted tool used by its owner to keep a private knowledge archive synchronized between Google Drive and an owner-controlled server. The archive contains documents such as study notes, creative writing references, and project records.</p>
+    <h2>Why Google Drive access is requested</h2>
+    <p>The owner uses rclone and a private indexing service to read and synchronize files. With the owner's authorization, synchronization and memory-management tools may create, update, organize, or delete Google Drive files. The intended working area is the owner's AI-Memory folder; however, the full Google Drive OAuth scope technically permits access beyond that folder.</p>
+    <h2>Who can use it</h2>
+    <p>This is a personal-use application for its owner. It is not a publicly offered cloud storage or AI service, and this website has no sign-in form.</p>
+    <h2 id="terms">Terms of use</h2>
+    <p>This tool is provided for personal use by its owner. Changes to synchronized files may occur automatically when those features are enabled. The owner is responsible for access credentials, account security, and independent backups.</p>
+    <p>For how Google user data is accessed and handled, please read the <a href="privacy.html">Privacy Policy</a>.</p>
+  </main>
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · <a href="#terms">Terms of Use</a><br>
+    AI-Memory-Sync — Personal project, updated October 21, 2026.
+  </footer>
+</body>
+</html>
